@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Ashikur\\MvcBlog\\' => array($baseDir . '/src'),
+    'Http\\' => array($baseDir . '/Http'),
+    'Core\\' => array($baseDir . '/Core'),
 );
