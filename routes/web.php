@@ -1,10 +1,9 @@
 <?php
+
+use App\Http\Controllers\HomeController;
 use Core\Router as Route;
 
-Route::get('/', function () {
-    return view('index');
-})->name('home');
-
-Route::get('/contact', function () {
-    return view('contact');
+Route::controller(HomeController::class)->group(function () {
+    Route::get('/', 'home')->name('home');
 });
+
