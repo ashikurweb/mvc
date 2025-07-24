@@ -1,5 +1,5 @@
 <?php 
-namespace Core;
+namespace Database;
 use PDO;
 
 class Database 
@@ -13,5 +13,10 @@ class Database
         $this->connection = new PDO($dsn, $username, $password, [
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]);
+    }
+
+    public function getConnection()
+    {
+        return $this->connection;
     }
 }

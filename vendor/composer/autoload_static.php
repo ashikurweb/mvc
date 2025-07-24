@@ -11,6 +11,10 @@ class ComposerStaticInit4c5fd8e84b997ca8f57abbe8f5610850
         array (
             'Http\\' => 5,
         ),
+        'D' => 
+        array (
+            'Database\\' => 9,
+        ),
         'C' => 
         array (
             'Core\\' => 5,
@@ -25,6 +29,10 @@ class ComposerStaticInit4c5fd8e84b997ca8f57abbe8f5610850
         'Http\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Http',
+        ),
+        'Database\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/database',
         ),
         'Core\\' => 
         array (

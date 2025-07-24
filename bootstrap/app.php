@@ -1,7 +1,7 @@
 <?php 
 use Core\App;
 use Core\Router;
-use Core\Database;
+use Database\Database;
 use Core\Container;
 
 $container = new Container();

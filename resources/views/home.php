@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to the home page</h1>
+    <h1>Database Connection Test</h1>
+    <p><?= htmlspecialchars($dbStatus ?? 'No status') ?></p>
 </body>
 </html>
