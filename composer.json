@@ -1,5 +1,5 @@
 {
-    "name": "ashikur/mvc-blog",
+    "name": "ashikur/mvc",
     "type": "project",
     "autoload": {
         "psr-4": {
