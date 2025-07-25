@@ -1,5 +1,5 @@
 <?php 
-namespace Core;
+namespace core;
 use Exception;
 
 class Container

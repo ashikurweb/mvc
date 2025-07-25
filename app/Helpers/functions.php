@@ -52,16 +52,10 @@ function redirect ( $path )
  * @param string $name
  * @return void
  */
-function view($name, $data = [])
-{
-    extract($data);
-    require base_path("resources/views/{$name}.php");
-}
-
 if (!function_exists('view')) {
     function view($name, $data = [])
     {
         extract($data);
-        require base_path("resources/views/{$name}.php");
+        require base_path("resources/views/{$name}.view.php");
     }
 }
